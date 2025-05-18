@@ -75,7 +75,7 @@ export default function LoginPage() {
             
             <div className="flex justify-center mt-6">
               <VerifyButton 
-                onClick={handleVerify} 
+                onVerify={handleVerify} 
                 loading={isVerifying}
                 disabled={isVerifying}
               />
